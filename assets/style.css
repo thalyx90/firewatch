@@ -1,10 +1,16 @@
 .wrapper>div{
 	min-height: 100vh;
-	border:1px red solid;
 	position: relative;
 }
 
-
+.section1 {
+	height: 1038px;
+	overflow: hidden;
+	background-color:#FFB000;
+}
+.section2{
+	background-color:#220001;
+}
 .section1 .layer{
 	position: absolute;
 	width: 100%;
@@ -13,6 +19,10 @@
 	left:0;
 	background-position: top center;
 	background-repeat: no-repeat;
+}
+
+label, input{
+	transition:all ease 0.3s;
 }
 
 .section1 .layer1{
@@ -45,4 +55,18 @@
 
 .section1 .layer8{
 	background-image:url(image8.png);
+}
+.section1 .layer9{
+	background-image:url(image9.png);
+}
+
+/*contact form*/
+.contactForm{
+	width: 80%;
+	max-width: 30em;
+	margin:auto;
+}
+
+.contactForm label{
+	color:white;
 }
