@@ -6,12 +6,12 @@ $(function(){
   		translateY: {
 		    // value: [0,200],
 		    value:function(el, i, l){
-		    	return [0,(8-i)*60];
+		    	return [0,(9-i)*50];
 		    },
 		    // duration: 2000,
 		},
 
-		easing: 'easeInOutQuart',
+		easing: 'linear',
 
 		autoplay: false
 
@@ -24,7 +24,7 @@ $(function(){
 
 		// if(iScrollTop<=540){
 
-			oAnime.seek(oAnime.duration * (iScrollTop / 400));
+			oAnime.seek(oAnime.duration * (iScrollTop / 450));
 		
 		// }
 
