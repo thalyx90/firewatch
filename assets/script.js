@@ -17,6 +17,18 @@ $(function(){
 
 	});
 
+	var oAnime2 = anime({
+		targets: '.section1 .layer-special',
+  		translateY:[300,0],
+		// scale: [2,1],
+		opacity: [0,1],
+	
+		easing: 'easeInOutQuart',
+
+		autoplay: false
+
+	});
+
 
 
 	$(document).on('scroll',function(e){
@@ -25,6 +37,7 @@ $(function(){
 		// if(iScrollTop<=540){
 
 			oAnime.seek(oAnime.duration * (iScrollTop / 450));
+			oAnime2.seek(oAnime2.duration * (iScrollTop / 200));
 		
 		// }
 

@@ -11,7 +11,7 @@
 .section2{
 	background-color:#220001;
 }
-.section1 .layer{
+.section1 .layer, .section1 .layer-special{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -19,6 +19,13 @@
 	left:0;
 	background-position: top center;
 	background-repeat: no-repeat;
+}
+
+.section1 .layer-special{
+	text-align: center;
+	margin-top: 350px;
+	color:#220001;
+	text-transform: uppercase;
 }
 
 label, input{
